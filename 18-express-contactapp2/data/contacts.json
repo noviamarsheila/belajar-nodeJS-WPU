@@ -1,12 +1,5 @@
 [
-	{
-		"nama": "Novia Marsheila",
-		"nohp": "082352653762",
-		"email": "noviasheila@gmail.com"
-	},
-	{
-		"nama": "Lavenia Berlian",
-		"nohp": "085342635647",
-		"email": "berlian@gmail.com"
-	}
+	{ "nama": "Novia Marsheila", "nohp": "082352653762", "email": "noviasheila@gmail.com" },
+	{ "nama": "Lavenia Berlian", "nohp": "085342635647", "email": "berlian@gmail.com" },
+	{ "nama": "Louis", "email": "louis@gmail.com", "nohp": "082356476645" }
 ]

@@ -1,7 +1,7 @@
 const { urlencoded } = require("express");
 const express = require("express");
 const expressLayouts = require("express-ejs-layouts");
-const { loadContact, findContact } = require("./utils/contacts");
+const { loadContact, findContact, addContact } = require("./utils/contacts");
 
 const app = express();
 const port = 3000;
@@ -68,7 +68,8 @@ app.get("/contact/add", (req, res) => {
 
 // proses data contact
 app.post("/contact", (req, res) => {
-	res.send(req.body);
+	addContact(req.body);
+	res.redirect("/contact");
 });
 
 // halaman detail contact
